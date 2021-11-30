@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+    
+}
+
+.box1 {
+    background-color: rgb(132, 204, 233);
+    height: 100px;
+}
+
+.box2 {
+    background-color: rgb(0, 132, 255);
+    height: 400px;
+    width: 250px;
+}
+
+.box3 {
+    background-color: rgb(255, 0, 128);
+    height: 400px;
+    margin-left: 280px;
+    margin-top: -419px;
+}
+
+.box4 {
+    background-color: rgb(132, 204, 233);
+    height: 100px;
+}
+
+.Minar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
