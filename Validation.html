@@ -1,0 +1,39 @@
+<form onsubmit="form()">
+        <div id="pembungkusValidation">
+            <h1 class="title">Form Validation</h1>
+            <label for="username"><span class="nama">Nama: </span><br>
+                <input type="text" class="inp" id="username" name="username" required maxlength="30" autocomplete="0">
+            </label>
+
+            <label for="email"><span class="nama">Email:</span><br>
+                <input type="email" class="inp" id="email" name="email" autocomplete="0" required>
+            </label>
+
+            <label for="jamBerangkat"><span class="nama">Jam Keberangkatan:</span><br>
+                <input type="time" class="inp" id="jamBerangkat" name="jamKeberangkatan" autocomplete="0" min="00.00"
+                    max="23.59" required>
+            </label>
+
+            <label for="tujuan"><span class="nama">Tujuan:</span><br>
+                <input type="text" class="inp" id="tujuan" name="tujuan" autocomplete="0" required>
+            </label>
+
+            <label for="jumlahTiket"><span class="nama">Jumlah Tiket:</span><br>
+                <input type="number" class="inp" id="jumlahTiket" name="jumlahTiket" autocomplete="0" required min="0"
+                    max="10">
+            </label>
+            <div class="button">
+                <label for="submit">
+                    <input id="submit" type="submit">
+                </label>
+                <label for="reset">
+                    <input id="reset" type="reset">
+                </label>
+            </div>
+
+        </div>
+
+        <div id="tampilan">
+            <p></p>
+        </div>
+    </form>
